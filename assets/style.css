@@ -3,6 +3,7 @@
     margin: 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     box-sizing: border-box;
+    font-weight: 500;
 }
 
 body {
@@ -11,17 +12,38 @@ body {
 
 .header {
     width: auto;
-    height: 70px;
+    height: 30px;
     background-color: aliceblue;
+    border: 2px solid gray;
+    border-radius: 2px;
+}
 
+.countdown {
+    background-color: aliceblue;
+    border: 2px solid gray;
+    text-align: left;
+    border-radius: 2px;
+    font-size: 20px;
+    width: auto;
+    height: 30px;
+}
+
+.score {
+    background-color: aliceblue;
+    border: 2px solid gray;
+    text-align: left;
+    border-radius: 2px;
+    font-size: 20px;
+    width: auto;
+    height: 30px;
 }
 
 .empty-box {
-    padding: 10px;
-    margin: 30px auto 20px;
+    padding: 40px;
+    margin: 90px auto 90px;
     width: auto;
     max-width: 600px;
-    height: 500px;
+    height: auto;
     background-color: white;
     border-radius: 10px;
     text-align: left;
@@ -31,15 +53,46 @@ body {
 .empty-box h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
+    margin: 5px 10px;
     text-decoration: underline;
-    text-align: center;
-    background-color: aliceblue;
+    font-weight: 600;
+    text-align: left;
 }
 
+.quiz h2 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.btn {
+    background-color: aliceblue;
+    width: 100%;
+    border: 2px solid gray;
+    padding: 10px;
+    margin: 10px 0px;
+    text-align: left;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: lightskyblue;
+    color: white;
+}
+
+#next {
+    background-color: aliceblue;
+    border: 2px solid gray;
+    border-radius: 1px;
+    cursor: pointer;
+    width: 200px;
+
+}
 
 footer {
     text-align: center;
     width: auto;
-    height: 100px;
+    height: auto;
     background-color: aliceblue;
+    border: 2px solid gray;
 }
