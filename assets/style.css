@@ -15,30 +15,18 @@ header {
     border: 3px solid gray;
     border-radius: 2px;
     text-align: left;
-    font-size: 30px;
+    font-size: 40px;
     padding: 10px;
     text-align: center;
+    text-decoration: underline;
 }
 
-
-.countdown {
+.container {
     background-color: aliceblue;
-    border: 2px solid gray;
     text-align: left;
-    border-radius: 2px;
     font-size: 20px;
-    width: auto;
-    height: 30px;
-}
-
-.score {
-    background-color: aliceblue;
-    border: 2px solid gray;
-    text-align: left;
-    border-radius: 2px;
-    font-size: 20px;
-    width: auto;
-    height: 30px;
+    height: 50px;
+    margin: auto;
 }
 
 .empty-box {
@@ -81,18 +69,17 @@ header {
     color: white;
 }
 
-#next:hover {
-    background-color: lightskyblue;
-    color: white;
-}
-
-#next {
+#start {
     background-color: aliceblue;
     border: 2px solid gray;
     border-radius: 1px;
     cursor: pointer;
     width: 200px;
+}
 
+#start:hover {
+    background-color: lightskyblue;
+    color: white;
 }
 
 footer {
