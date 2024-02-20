@@ -10,7 +10,9 @@ https://saltycowrie.github.io/moduleFourChallenge/
 
 ## Screenshot
 
-<img width="1470" alt="Screenshot 2024-02-19 at 6 55 21 PM" src="https://github.com/SaltyCowrie/moduleFourChallenge/assets/150820140/b67bdc43-8f1a-45a4-a06b-cc55e3f96b02">
+<img width="1470" alt="Screenshot 2024-02-19 at 11 03 17 PM" src="https://github.com/SaltyCowrie/moduleFourChallenge/assets/150820140/ff626388-7f06-4d41-ad8d-bf8b6f0146bc">
+
+<img width="1470" alt="Screenshot 2024-02-19 at 11 03 15 PM" src="https://github.com/SaltyCowrie/moduleFourChallenge/assets/150820140/7081d910-41cc-462b-937f-98eae046c355">
 
 
 ## Credit
