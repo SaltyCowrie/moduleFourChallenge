@@ -12,17 +12,18 @@ body {
 
 header {
     background-color: aliceblue;
-    border: 3px solid gray;
-    border-radius: 2px;
     text-align: left;
     font-size: 40px;
     padding: 10px;
     text-align: center;
-    text-decoration: underline;
+}
+
+header h2 {
+    text-shadow: 5px 5px 5px rgb(18, 131, 169);
 }
 
 .container {
-    background-color: aliceblue;
+    background-color: rgb(196, 224, 249);
     text-align: left;
     font-size: 20px;
     height: 50px;
@@ -67,6 +68,7 @@ header {
 .btn:hover {
     background: lightskyblue;
     color: white;
+    transform: scale(1.025);
 }
 
 #start {
@@ -80,6 +82,7 @@ header {
 #start:hover {
     background-color: lightskyblue;
     color: white;
+    transform: scale(1.025);
 }
 
 footer {
@@ -88,4 +91,5 @@ footer {
     height: auto;
     background-color: aliceblue;
     border: 2px solid gray;
+    padding: 10px;
 }
